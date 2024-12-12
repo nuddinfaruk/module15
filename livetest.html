@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Basket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .card {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+        font-weight: bold;
+    }
+
+    input[type="number"] {
+        text-align: center;
+    }
+
+    .card-text{
+        font-size: 20px;
+        font-weight: 600;
+        color:#6c8002
+    }
+    .card-text-1{
+        font-size: 20px;
+        font-weight: 600;
+        color:#000;
+    }
+
+    .my_payment{
+        color:#fff;
+        background-color: #6c8002;
+    }
+    .my_payment a {
+        border:0px;
+        
+    }
+</style>
+</head>
+<body>
+    <div class="container my-5">
+        
+        <div class="row">
+            <!-- Basket Items -->
+            <div class="col-lg-8">
+                <div class="card mb-3">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-3">
+                            <img src="https://cdn.britannica.com/16/187216-131-FB186228/tomatoes-tomato-plant-Fruit-vegetable.jpg" class="img-fluid rounded-start" alt="Product Image">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Heirloom Tomato</h5>
+                                <p class="card-text">$5.99/kg</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <p class="card-text-1">$5.99/kg</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-3">
+                            <img src="https://juneshine.com/cdn/shop/articles/sentot-setyasiswanto-2VePbF_YRK8-unsplash_1080x.jpg?v=1629136788" class="img-fluid rounded-start" alt="Product Image">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Organic ginger</h5>
+                                <p class="card-text">$12.99/kg</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <p class="card-text-1">$12.99/kg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-3">
+                            <img src="https://davidsgardenseeds.com/cdn/shop/files/00499_01_purplette.jpg?v=1700755439" class="img-fluid rounded-start" alt="Product Image">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Sweet Onion</h5>
+                                <p class="card-text">$2.99/kg</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <p class="card-text-1">$2.99/kg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Summary -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Order Summary</h4>
+                        <div class="d-flex justify-content-between">
+                            <p>Subtotal</p>
+                            <p>$21.97</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>Tax</p>
+                            <p>$5.00</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <strong>Total</strong>
+                            <strong>$26.79</strong>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <a href=" "class="my_payment btn btn-primary w-100 mt-3">Continue to payment  </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
